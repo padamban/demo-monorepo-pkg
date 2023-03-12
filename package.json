@@ -6,7 +6,8 @@
     "lint": "turbo run lint",
     "build": "turbo run build",
     "release": "changeset publish",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "dependencies": {},
   "devDependencies": {
