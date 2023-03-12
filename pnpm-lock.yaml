@@ -26,6 +26,17 @@ importers:
       tsup: 6.6.3_typescript@4.9.5
       typescript: 4.9.5
 
+  packages/package-C:
+    specifiers:
+      '@pulchritude/demo-package-b': workspace:*
+      tsup: ^6.5.0
+      typescript: ^4.9.4
+    dependencies:
+      '@pulchritude/demo-package-b': link:../package-B
+    devDependencies:
+      tsup: 6.6.3_typescript@4.9.5
+      typescript: 4.9.5
+
 packages:
 
   /@babel/code-frame/7.18.6:
