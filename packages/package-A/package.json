@@ -1,9 +1,10 @@
 {
   "name": "@pulchritude/demo-package-a",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "main": "src/index.js",
   "types": "src/index.ts",
+  "module": "none",
   "publishConfig": {
     "access": "public"
   },
