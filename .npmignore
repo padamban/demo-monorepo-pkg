@@ -1,3 +1,5 @@
 node_modules
 .changeset
 .github
+CHANGELOG.md
+.turbo
