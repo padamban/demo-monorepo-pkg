@@ -8,7 +8,7 @@
     "release": "changeset publish",
     "changeset": "changeset",
     "pre-publish": "node ./.github/scripts/pre-publish.js",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "publish-packages": "changeset version && changeset publish"
   },
   "dependencies": {},
   "devDependencies": {
