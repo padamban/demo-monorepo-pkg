@@ -1,4 +1,4 @@
-# @pulcritude/demo-package-b
+# @pulchritude/demo-package-b
 
 ## 0.0.1
 

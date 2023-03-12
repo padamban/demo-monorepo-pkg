@@ -1,5 +1,5 @@
 {
-  "name": "@pulcritude/demo-package-b",
+  "name": "@pulchritude/demo-package-b",
   "version": "0.0.1",
   "private": false,
   "main": "dist/index.js",
