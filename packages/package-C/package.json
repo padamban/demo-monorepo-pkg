@@ -2,9 +2,8 @@
   "name": "@pulchritude/demo-package-c",
   "version": "0.0.0",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.ts",
   "publishConfig": {
     "access": "public"
   },
