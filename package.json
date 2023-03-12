@@ -2,15 +2,11 @@
   "name": "@pulchritude/my-demo-monorepo-package",
   "license": "MIT",
   "version": "0.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "scripts": {
+    "lint": "turbo run lint",
     "build": "turbo run build",
+    "release": "changeset publish",
     "changeset": "changeset"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {},
   "devDependencies": {
